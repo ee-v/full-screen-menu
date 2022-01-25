@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Screen Menu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&family=Outfit&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/fontawesome/all.min.css">
+    <link rel="stylesheet" href="/assets/css/normalize.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="/index.html" class="navbar__logo">
+                <i class="fas fa-expand"></i> FSM
+            </a>
+            <span class="navbar__btn-menu"><i class="fas fa-bars"></i></span>
+        </nav>
+        <div class="nav-menu">
+            <span class="nav-menu__btn-close"><i class="fas fa-times"></i></span>
+            <ul class="nav-menu__list">
+                <li><a href="#home" class="nav-menu__link">Home</a></li>
+                <li><a href="#about" class="nav-menu__link">About</a></li>
+                <li><a href="#contact" class="nav-menu__link">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <section class="section section--centered" id="home">
+            <h1 class="section__title">Full Screen Menu</h1>
+            <p class="section__caption">A simple full screen menu made with CSS & JavaScript</p>
+        </section>
+        <section class="section section--aligned section--second" id="about">
+            <h1 class="section__title">About</h1>
+            <p class="section__text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas minus eaque
+                distinctio,
+                ducimus, facilis voluptates alias quisquam pariatur reiciendis voluptatum ea, quaerat veniam
+                voluptatibus deleniti eum ratione? Minima, excepturi et.
+            </p>
+            <div class="section__grid--2">
+                <p class="section__text">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, animi. Velit perferendis eveniet
+                    dicta vero, fugit laudantium corporis porro sequi unde cum, commodi animi aut earum, repellendus eum
+                    sunt qui!
+                </p>
+                <img src="https://www.seobility.net/en/wiki/images/0/06/CDN.png" alt="Image" class="section__img">
+            </div>
+        </section>
+        <section class="section section--aligned section--third" id="contact">
+            <h1 class="section__title">Contact</h1>
+            <p class="section__caption">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae optio amet
+                impedit nemo dolorum.</p>
+            <form action="#" class="section__form">
+                <input type="email" name="email" id="email" placeholder="Enter your email" class="section__input">
+                <button type="submit" class="section__btn">Send</button>
+            </form>
+            <div class="section__social-links">
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <a href="#"><i class="fab fa-twitter-square"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </section>
+    </main>
+    <script src="/assets/js/index.js"></script>
+</body>
+
+</html>
